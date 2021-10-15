@@ -1,0 +1,134 @@
+body:after
+{
+content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background: var(--color-darkblue);
+    background-image: linear-gradient( 
+115deg
+, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7) ), url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#title
+{
+color: #F3F3F3;
+text-align: center;
+font-family: sans-serif,poppins;
+font-weight: lighter;
+font-size: 32px;
+}
+#description
+{
+color: #F3F3F3;
+text-align: center;
+font-family: sans-serrif,poppins;
+font-weight: lighter;
+font-size: 18px;
+}
+#survey-form
+{
+text-align: center;
+min-width: 400px;
+padding: 2.5erm;
+background: rgba(27, 27, 50, 0.8);
+display: block;
+box-sizing: border-box;
+color: #F3F3F3;
+font-family: sans-serrif,poppins;
+font-size: 18px;
+}
+#name
+{
+  margin: 0 auto 1.25rem auto;
+  padding: 6px 110px;
+  display: block;
+  text-align: center;
+  background: #FFFFFF;
+}
+#name-label
+{
+  display: block;
+  text-align: center;
+  font-family: sans-serrif,poppins;
+}
+#email
+{
+  margin: 0 auto 1.25rem auto;
+  padding: 6px 110px;
+  display: block;
+  text-align: center;
+  background: #FFFFFF;
+}
+#email-label
+{
+  display: block;
+  text-align: center;
+  font-family: sans-serrif,poppins;
+}
+#number
+{
+  margin: 0 auto 1.25rem auto;
+  padding: 6px 170px;
+  display: block;
+  text-align: center;
+  background: #FFFFFF;
+}
+#number-label
+{
+  display: block;
+  text-align: center;
+  font-family: sans-serrif,poppins;
+}
+#best
+{
+  display: block;
+  text-align: center;
+  font-family: sans-serrif,poppins;
+}
+#dropdown
+{
+  margin: 0 auto 1.25rem auto;
+  padding: 6px 140px;
+  display: block;
+  text-align: center;
+  background: #FFFFFF;
+}
+#rec
+{
+  display: block;
+  text-align: center;
+  font-family: sans-serrif,poppins;
+}
+.input-radio
+{
+  font-family: sans-serrif,poppins;
+}
+#most-like
+{
+   margin: 0 auto 1.25rem auto;
+  padding: 6px 140px;
+  display: block;
+  text-align: center;
+  background: #FFFFFF;
+}
+#comments
+{
+  display: center;
+  padding: 75px 20px 30px 75px;
+  margin-bottom: 12px;
+  
+}
+#submit
+{
+  margin: 0 auto 1.25rem auto;
+  padding: 5px 140px;
+  display: block;
+  text-align: center;
+  background: #37AF65;
+}
